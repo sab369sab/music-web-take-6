@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -25,8 +24,7 @@
 
     <div class="music-container">
         <div class="music-item">
-            <h2>-MF DOOM-
-                DoomsDay</h2>
+            <h2>-MF DOOM- DoomsDay</h2>
             <img src="img\doomsday_cover.jpg" alt="MF DOOM madville" >  <!-- Enter img URL here -->
             <audio controls>
                 <source src="audio\Doomsday(MP3_160K).mp3" type="audio/mp3"><!-- Enter audio URL here -->
@@ -35,8 +33,7 @@
         </div>
 
         <div class="music-item">
-            <h2>-FLCL-
-                Stalker Instrumental</h2>
+            <h2>-FLCL- Stalker</h2>
             <img src="img\FLCL.webp" alt="pillows flcl cover"> <!-- Enter img URL here -->
             <audio controls>
                 <source src="audio\32   Stalker Instrumental - FLCL OST (the pillows)(MP3_128K).mp3" type="audio/mp3"> <!-- Enter audio URL here -->
@@ -45,8 +42,7 @@
         </div>
 
         <div class="music-item">
-            <h2>-FLCL-
-                Bran-new Lovesong</h2>
+            <h2>-FLCL- Bran-new Lovesong</h2>
             <img src="img\brand-new_loving_song.jpg" alt="bran-new lovesong flcl">  <!-- Enter img URL here -->
             <audio controls>
                 <source src="audio\The Pillows - Bran-new Lovesong(MP3_128K).mp3" type="audio/mp3"> <!-- Enter audio URL here -->
@@ -55,7 +51,7 @@
         </div>
 
         <div class="music-item">
-            <h2>Beautiful morning with you</h2>
+            <h2>-FLCL- Beautiful morning</h2>
             <img src="img\beautiful_morning_with_you.jpg" alt="Beautiful morning with you flcl"  alt="Song 4 Image"> <!-- Enter img URL here -->
             <audio controls>
                 <source src="audio\The Pillows - Beautiful morning with you (FLCL Version)(MP3_128K).mp3" type="audio/mp3"> <!-- Enter audio URL here -->
@@ -64,9 +60,7 @@
         </div>
         
         <div class="music-item">
-            <h2>-MF DOOM-
-
-                ALL CAPS</h2>
+            <h2>-MF DOOM- ALL CAPS</h2>
             <img src="img\mad_villan.jpg" alt="all caps cover" > <!-- Enter img URL here -->
             <audio controls>
                 <source src="audio\Madvillain - All Caps(MP3_160K).mp3" type="audio/mp3"> <!-- Enter audio URL here -->
