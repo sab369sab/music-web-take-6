@@ -66,7 +66,7 @@
         <div class="music-item">
             <h2>-MF DOOM-
 
-                A L L CAPS</h2>
+                ALL CAPS</h2>
             <img src="img\mad_villan.jpg" alt="all caps cover" > <!-- Enter img URL here -->
             <audio controls>
                 <source src="audio\Madvillain - All Caps(MP3_160K).mp3" type="audio/mp3"> <!-- Enter audio URL here -->
