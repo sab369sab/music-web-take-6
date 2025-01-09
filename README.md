@@ -24,7 +24,8 @@
 
     <div class="music-container">
         <div class="music-item">
-            <h2>-MF DOOM- DoomsDay</h2>
+            <h2>-MF DOOM- 
+                DoomsDay</h2>
             <img src="img\doomsday_cover.jpg" alt="MF DOOM madville" >  <!-- Enter img URL here -->
             <audio controls>
                 <source src="audio\Doomsday(MP3_160K).mp3" type="audio/mp3"><!-- Enter audio URL here -->
@@ -172,7 +173,7 @@
         <h3> most listened songs</h3>
         <ul>
             <li>
-                <img src="img\Damn.jpg" alt="Thumbnail 5"> <!-- Enter thumbnail URL here -->
+                <img src="img\DAMN.jpg" alt="Thumbnail 5"> <!-- Enter thumbnail URL here -->
                 <span><a href="https://youtu.be/jdbQYDkNjfk?si=TiLJeG-ZMhrB16vb">FEAR. </a></span>
             </li>
             <li>
