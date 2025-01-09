@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background: linear-gradient(to bottom, #F43B86, #3D087B);
+    color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*header {
+    background:linear-gradient(#FFE459 , #ffe35963) ;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    flex-wrap: wrap;
+}*/
+
+header {
+    background: linear-gradient(to bottom, #ffe359, #ffcc0093);
+    color: #3D087B;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.music-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.music-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.music-item:hover{
+    transform: translateY(-10px);
+}
+
+.music-item img {
+    width: 100%;
+    border-radius: 8px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.music-item h2 {
+    font-size: 1.2rem; /* Adjust as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 1.4;
+    height: 3rem; /* Adjust to ensure enough space for 2-3 lines */
+    overflow: hidden; /* Hides overflowing text if it exceeds the height */
+    text-overflow: ellipsis; /* Adds "..." to indicate more text */
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limits to 2 lines */
+    -webkit-box-orient: vertical;
+}
+
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.song-list {
+    margin: 30px 0;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.song-list h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.song-list ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.song-list li {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 45%;
+    transition: transform 0.3s ease;
+}
+.song-list li:hover{
+    transform: translateY(-8px);
+}
+
+.song-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+a:link{
+    color: rgb(95, 1, 56);
+}
+a:visited{
+    color: pink;
+}
+
+.the-pillows{
+    color: #ee7caa;
+    text-align: center;
+}
+.MF-DOOM{
+    color: #360063;
+    text-align: center;
+}
+.the-Symposium{
+    color: #FFE459;
+    text-align: center;
+}
+.ARCANE{
+    color: rgb(20, 2, 121);
+    text-align: center;
+}
+.K-dot{
+    color: #dd0000;
+    text-align: center;
+}
+
+footer {
+    background-image: url('img/4chan_space_real_real.jpg');
+    background-size: cover; /* Set to the exact dimensions of your image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image within the footer */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .music-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .music-item {
+        width: 90%;
+    }
+
+    .song-list ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .song-list li {
+        width: 90%;
+    }
+}
+
+.music-item:hover, .song-list li:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+a:hover {
+    color: #ffccff;
+    text-decoration: underline;
+}
+
+
+
+audio {
+    border: 2px solid #f43b86;
+    border-radius: 4px;
+}
+
+.music-item, .song-list li {
+    animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Navbar */
+.navbar {
+    margin-top: 10px;
+    background-color: #3D087B;
+    padding: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: #ff5e7e;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+section {
+    padding: 100px 20px;
+    min-height: 100vh;
+}
+
+body p {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent box */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+    padding: 15px; /* Spacing inside the box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow for depth */
+    margin: 20px 0; /* Space between paragraphs */
+    color: #000000; /* Text color */
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.6; /* Better readability */
+    max-width: 800px; /* Restrict width for better readability */
+    text-align: justify; /* Align text for a neat look */
+}
